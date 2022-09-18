@@ -1,0 +1,483 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.head_block{
+    background-image: url('body.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+header img{
+    width: 80px;
+    height:80px;
+}
+header ol{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: auto 10px auto auto;
+    background-color: rgb(7, 7, 7);
+    margin-right: -10px;
+    border-radius: 10px 0 0 10px;
+}
+header ol li{
+    margin: 10px 20px;
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+header ol li:nth-child(1){
+    margin-left: 0;
+}
+header ol li a{
+    text-decoration: none;
+    color: white;
+}
+.head_block p:nth-child(2){
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10%;
+}
+.head_block p:nth-child(3){
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    margin: -40px auto 0 auto;
+}
+.shop{
+    text-align: center;
+    padding: 30px;
+    margin-top: 5%;
+}
+.shop a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+}
+
+/*основной блок*/
+main{
+    background-color: rgb(218, 218, 218);
+    padding-top: 2%;
+}
+main h1{
+    font-size: 50px;
+    text-align: center;
+}
+main .popo{
+    font-size: 25px;
+    width: 60%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+
+/*кадегория одежды*/
+.categories{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.categories .flex{
+    display: flex;
+    margin: 0 15%;
+}
+.categories .flex:nth-child(2){
+    margin: 2% 15%;
+}
+.categories .flex div{
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    transition-duration: 1s;
+}
+.categories .flex div a{
+    background-color: rgb(170, 169, 169); 
+    padding: 0 5px 5px 5px;
+    border-radius: 0 0 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.categories .flex div:nth-child(1){
+    margin: 0 1% 0 0;
+}
+.categories .flex div:nth-child(2){
+    margin: 0 0 0 1%;
+}
+.categories .flex .block_1{
+    background-image: url('t_shirts.jpg');
+    border-radius: 10px 0 0 0;
+}
+.categories .flex .block_2{
+    background-image: url('pants.jpeg');
+    border-radius: 0 10px 0 0;
+}
+.categories .flex .block_3{
+    background-image: url('hat.jpg');
+    background-position: top;
+}
+.categories .flex .block_4{
+    background-image: url('shoes.jpg');
+}
+.categories .flex .block_5{
+    background-image: url('backpack.jpg');
+    border-radius: 0 0 0 10px;
+}
+.categories .flex .block_6{
+    background-image: url('shirt.jpg');
+    border-radius: 0 0 10px 0;
+}
+.categories .flex div:hover{
+    background-size: 120%;
+}
+
+/*о нас*/
+.aboutUs{
+    background-color: rgb(197, 194, 194);
+    padding: 10% 5%;
+}
+.aboutUs .flex{
+    display: flex;
+}
+.aboutUs .flex h1{
+    text-align: start;
+    font-size: 40px;
+}
+.aboutUs .flex p{
+    text-align: start;
+    font-size: 20px;
+    width: 95%;
+}
+
+/*подписка*/
+.sub{
+    padding: 10% 0;
+}
+.sub h1{
+    font-size: 50px;
+}
+.sub p{
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sub .sub_block{
+    display: flex;
+}
+.sub .sub_block div:nth-child(1){
+    width: 40%;
+    margin: 30px 0 30px auto;
+}
+.sub .sub_block input{
+    padding: 10px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sub .sub_block div:nth-child(2){
+    margin: 30px auto 30px 0;
+}
+.sub .sub_block button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*подвал*/
+footer{
+    background-color: rgb(36, 35, 35);
+}
+footer .footer_block{
+    padding: 10% 0;
+    text-align: center;
+    color: white;
+}
+.footer_block .networks{
+    display: flex;
+}
+.footer_block .networks div{
+    background-color: rgb(218, 218, 218);
+    border-radius: 100%;
+    padding: 10px 10px;
+}
+.footer_block .networks div:nth-child(1){
+    margin-left: auto;
+}
+.footer_block .networks div:nth-child(2){
+    margin: 0 10px;
+}
+.footer_block .networks div:nth-child(3){
+    margin-right: auto;
+}
+.footer_block .networks img{
+    width: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+footer p:nth-child(1),
+footer p:nth-child(2){
+    font-size: 50px;
+    font-weight: 600;
+}
+footer p:nth-child(2){
+    margin-top: -50px;
+}
+footer p:nth-child(3){
+    font-size: 25px;
+}
+
+
+
+
+
+@media(max-width:1080px){
+   /*шапка*/
+   .head_block{
+    background-image: url('body.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+header img{
+    width: 50px;
+    height:50px;
+}
+header ol{
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    margin: auto 10px auto auto;
+    background-color: rgb(7, 7, 7);
+    margin-right: -10px;
+    border-radius: 10px 0 0 10px;
+}
+header ol li{
+    margin: 10px 15px;
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+header ol li:nth-child(1){
+    margin-left: 0;
+}
+header ol li a{
+    text-decoration: none;
+    color: white;
+}
+.head_block p:nth-child(2){
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5%;
+}
+.head_block p:nth-child(3){
+    font-size: 15px;
+    width: 60%;
+    text-align: center;
+    margin: -40px auto 0 auto;
+}
+.shop{
+    text-align: center;
+    padding: 30px;
+    margin-top: 2%;
+}
+.shop a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+}
+   /*основной блок*/
+   main{
+    background-color: rgb(218, 218, 218);
+    padding-top: 1%;
+}
+    main h1{
+    font-size: 35px;
+    text-align: center;
+}
+    main .popo{
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+   /*категория одежды*/
+   .categories{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.categories .flex{
+    display: grid;
+}
+.categories .flex div{
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    transition-duration: 1s;
+}
+.categories .flex div a{
+    background-color: rgb(170, 169, 169); 
+    padding: 0 5px 5px 5px;
+    border-radius: 0 0 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.categories .flex div:nth-child(1){
+    margin: 0 0 1% 0;
+}
+.categories .flex div:nth-child(2){
+    margin: 1% 0 0 0 ;
+}
+.categories .flex .block_1{
+    background-image: url('t_shirts.jpg');
+    border-radius: 0;
+}
+.categories .flex .block_2{
+    background-image: url('pants.jpeg');
+    border-radius: 0;
+}
+.categories .flex .block_3{
+    background-image: url('hat.jpg');
+    background-position: top;
+}
+.categories .flex .block_4{
+    background-image: url('shoes.jpg');
+}
+.categories .flex .block_5{
+    background-image: url('backpack.jpg');
+    border-radius: 0;
+}
+.categories .flex .block_6{
+    background-image: url('shirt.jpg');
+    border-radius: 0;
+}
+.categories .flex div:hover{
+    background-size: 120%;
+}
+
+   /*о нас*/
+   .aboutUs{
+    background-color: rgb(197, 194, 194);
+    padding: 10% 5%;
+}
+.aboutUs .flex{
+    display: grid;
+}
+.aboutUs .flex h1{
+    text-align: center;
+    font-size: 30px;
+}
+.aboutUs .flex p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto 20px auto;
+}
+.aboutUs .flex img{
+    width: 100%;
+}
+   /*подписка*/
+   .sub{
+    padding: 10% 0;
+}
+.sub h1{
+    font-size: 30px;
+}
+.sub p{
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sub .sub_block{
+    display: grid;
+}
+.sub .sub_block div:nth-child(1){
+    width: 70%;
+    margin: 20px auto 0 auto;
+}
+.sub .sub_block input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sub .sub_block div:nth-child(2){
+    margin: 20px auto 0 auto;
+}
+.sub .sub_block button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+   /*подвал*/
+   footer{
+    background-color: rgb(36, 35, 35);
+}
+footer .footer_block{
+    padding: 30% 0;
+    text-align: center;
+    color: white;
+}
+.footer_block .networks{
+    display: flex;
+}
+.footer_block .networks div{
+    background-color: rgb(218, 218, 218);
+    border-radius: 100%;
+    padding: 10px 10px;
+}
+.footer_block .networks div:nth-child(1){
+    margin-left: auto;
+}
+.footer_block .networks div:nth-child(2){
+    margin: 0 10px;
+}
+.footer_block .networks div:nth-child(3){
+    margin-right: auto;
+}
+.footer_block .networks img{
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+footer p:nth-child(1),
+footer p:nth-child(2){
+    font-size: 30px;
+    font-weight: 600;
+}
+footer p:nth-child(2){
+    margin-top: -20px;
+}
+footer p:nth-child(3){
+    font-size: 15px;
+}
+}
